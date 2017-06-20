@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		52B625351EF92230009BA606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B625341EF92230009BA606 /* main.m */; };
-		52B625381EF92230009BA606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B625371EF92230009BA606 /* AppDelegate.m */; };
-		52B6253B1EF92230009BA606 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B6253A1EF92230009BA606 /* ViewController.m */; };
 		52B6253E1EF92230009BA606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B6253C1EF92230009BA606 /* Main.storyboard */; };
 		52B625401EF92230009BA606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B6253F1EF92230009BA606 /* Assets.xcassets */; };
 		52B625431EF92230009BA606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B625411EF92230009BA606 /* LaunchScreen.storyboard */; };
 		52B6254E1EF92230009BA606 /* DirectoryStructureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B6254D1EF92230009BA606 /* DirectoryStructureTests.m */; };
 		52B625591EF92230009BA606 /* DirectoryStructureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B625581EF92230009BA606 /* DirectoryStructureUITests.m */; };
+		52B625701EF92329009BA606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B625681EF92329009BA606 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +36,8 @@
 /* Begin PBXFileReference section */
 		52B625301EF92230009BA606 /* DirectoryStructure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectoryStructure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B625341EF92230009BA606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		52B625361EF92230009BA606 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		52B625371EF92230009BA606 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		52B625391EF92230009BA606 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		52B6253A1EF92230009BA606 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		52B6253D1EF92230009BA606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		52B6253F1EF92230009BA606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52B6253F1EF92230009BA606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		52B625421EF92230009BA606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B625441EF92230009BA606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52B625491EF92230009BA606 /* DirectoryStructureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectoryStructureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +46,8 @@
 		52B625541EF92230009BA606 /* DirectoryStructureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectoryStructureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B625581EF92230009BA606 /* DirectoryStructureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectoryStructureUITests.m; sourceTree = "<group>"; };
 		52B6255A1EF92230009BA606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B625671EF92329009BA606 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52B625681EF92329009BA606 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +98,14 @@
 		52B625321EF92230009BA606 /* DirectoryStructure */ = {
 			isa = PBXGroup;
 			children = (
-				52B625361EF92230009BA606 /* AppDelegate.h */,
-				52B625371EF92230009BA606 /* AppDelegate.m */,
-				52B625391EF92230009BA606 /* ViewController.h */,
-				52B6253A1EF92230009BA606 /* ViewController.m */,
-				52B6253C1EF92230009BA606 /* Main.storyboard */,
-				52B6253F1EF92230009BA606 /* Assets.xcassets */,
-				52B625411EF92230009BA606 /* LaunchScreen.storyboard */,
-				52B625441EF92230009BA606 /* Info.plist */,
+				52B625661EF92329009BA606 /* AppDelegate(应用入口) */,
+				52B6256C1EF92329009BA606 /* Modules(功能模块) */,
+				52B6256F1EF92329009BA606 /* Utils(工具类) */,
+				52B625691EF92329009BA606 /* Base(基类) */,
+				52B6256A1EF92329009BA606 /* Define(全局宏定义) */,
+				52B6256B1EF92329009BA606 /* Manager(管理模块) */,
+				52B6256D1EF92329009BA606 /* Resource(资源) */,
+				52B6256E1EF92329009BA606 /* ThridParty(三方) */,
 				52B625331EF92230009BA606 /* Supporting Files */,
 			);
 			path = DirectoryStructure;
@@ -117,6 +114,7 @@
 		52B625331EF92230009BA606 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				52B625441EF92230009BA606 /* Info.plist */,
 				52B625341EF92230009BA606 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +136,75 @@
 				52B6255A1EF92230009BA606 /* Info.plist */,
 			);
 			path = DirectoryStructureUITests;
+			sourceTree = "<group>";
+		};
+		52B625661EF92329009BA606 /* AppDelegate(应用入口) */ = {
+			isa = PBXGroup;
+			children = (
+				52B625671EF92329009BA606 /* AppDelegate.h */,
+				52B625681EF92329009BA606 /* AppDelegate.m */,
+			);
+			name = "AppDelegate(应用入口)";
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		52B625691EF92329009BA606 /* Base(基类) */ = {
+			isa = PBXGroup;
+			children = (
+				52B625411EF92230009BA606 /* LaunchScreen.storyboard */,
+				52B6253C1EF92230009BA606 /* Main.storyboard */,
+			);
+			name = "Base(基类)";
+			path = Base;
+			sourceTree = "<group>";
+		};
+		52B6256A1EF92329009BA606 /* Define(全局宏定义) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Define(全局宏定义)";
+			path = Define;
+			sourceTree = "<group>";
+		};
+		52B6256B1EF92329009BA606 /* Manager(管理模块) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Manager(管理模块)";
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		52B6256C1EF92329009BA606 /* Modules(功能模块) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Modules(功能模块)";
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		52B6256D1EF92329009BA606 /* Resource(资源) */ = {
+			isa = PBXGroup;
+			children = (
+				52B6253F1EF92230009BA606 /* Assets.xcassets */,
+			);
+			name = "Resource(资源)";
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		52B6256E1EF92329009BA606 /* ThridParty(三方) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "ThridParty(三方)";
+			path = ThridParty;
+			sourceTree = "<group>";
+		};
+		52B6256F1EF92329009BA606 /* Utils(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Utils(工具类)";
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B6253B1EF92230009BA606 /* ViewController.m in Sources */,
-				52B625381EF92230009BA606 /* AppDelegate.m in Sources */,
+				52B625701EF92329009BA606 /* AppDelegate.m in Sources */,
 				52B625351EF92230009BA606 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +386,7 @@
 				52B6253D1EF92230009BA606 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		52B625411EF92230009BA606 /* LaunchScreen.storyboard */ = {
@@ -328,6 +395,7 @@
 				52B625421EF92230009BA606 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
